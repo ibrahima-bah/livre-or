@@ -3,7 +3,7 @@
 session_start();
 
 
-$bdd = new PDO('mysql:host=localhost;dbname=livreor;charset=utf8', 'root', 'root');
+$bdd = new PDO('mysql:host=localhost;dbname=livreor;charset=utf8', 'root', '');
 
 
 ?>

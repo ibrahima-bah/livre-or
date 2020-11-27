@@ -2,7 +2,7 @@
 
 // connexion à la base de données
 
-$bdd = new PDO('mysql:host=localhost;dbname=livreor;charset=utf8', 'root', 'root');
+$bdd = new PDO('mysql:host=localhost;dbname=livreor;charset=utf8', 'root', '');
 
 if (isset($_GET['modifier']) AND !empty($_GET['modifier']))
 {
