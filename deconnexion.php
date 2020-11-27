@@ -5,6 +5,4 @@ $_SESSION = array();
 session_destroy();
 header("location:connexion.php");
 
-
-
 ?>
