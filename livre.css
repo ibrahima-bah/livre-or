@@ -1,0 +1,300 @@
+@import url('http://fonts.googleapis.com/css?family=Crete+Round');
+
+body{
+	font-family: 'Crete Round', serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.sidebar{
+	position: fixed;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	background:#042331;
+}
+.sidebar header{
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	background: #063146;
+	user-select: none;
+}
+
+.sidebar ul a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 65px;
+	font-size: 20px;
+	color: white;
+	padding-left: 40px;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(255,255,255,.1);
+	border-bottom: 1px solid black;
+	transition: .3s;
+	outline: none;
+}
+ul li:hover a{
+	padding-left: 50px;
+}
+.sidebar ul a i{
+	margin-right: 16px;
+}
+section {
+	background: url('livre.jpg')  no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+
+}
+
+/*---connexion*/
+.form h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.form p{
+	color: white;
+	text-transform: uppercase;
+}
+
+.form form {
+	width: 300px;
+	padding:40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+}
+.form form input[type = 'text'], .form form input[type = 'password']{
+	border:0;
+	background:none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #3498db;
+	padding: 14px 10px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.form form input[type = 'text']:focus, .form form input[type = 'password']:focus{
+	width: 280px;
+	border-color: #2ecc71;
+}
+.form form input[type = 'submit']{
+	border:0;
+	background:none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.form form input[type = 'submit']:hover{
+	background: #2ecc71;
+}
+/* inscription*/
+
+.inscription h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.inscription p{
+	color: white;
+	text-transform: uppercase;
+}
+.inscription form{
+	width: 300px;
+	padding:40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+}
+
+.inscription form input[type = 'text'], .inscription form input[type = 'password'], .inscription form input[type = 'password1']{
+	border:0;
+	background:none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #3498db;
+	padding: 14px 10px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.inscription form input[type = 'text']:focus, .inscription form input[type = 'password']:focus, .inscription form input[type = 'password1']:focus{
+	width: 280px;
+	border-color: #2ecc71;
+}
+.inscription form input[type = 'submit']{
+	border:0;
+	background:none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.inscription form input[type = 'submit']:hover{
+	background: #2ecc71;
+}
+/*---profil*/
+
+.profil h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.profil p{
+	color: white;
+	text-transform: uppercase;
+}
+.profil form{
+	width: 300px;
+	padding:40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+}
+
+.profil form input[type = 'text'], .profil form input[type = 'password'], .profil form input[type = 'password1']{
+	border:0;
+	background:none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #3498db;
+	padding: 14px 10px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.profil form input[type = 'text']:focus, .profil form input[type = 'password']:focus, .profil form input[type = 'password1']:focus{
+	width: 280px;
+	border-color: #2ecc71;
+}
+.profil form input[type = 'submit']{
+	border:0;
+	background:none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.profil form input[type = 'submit']:hover{
+	background: #2ecc71;
+}
+
+/*----commentaire*/
+.commentaire h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.commentaire form{
+	width: 300px;
+	padding:40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+}
+.commentaire form input[type = 'submit']{
+	border:0;
+	background:none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.commentaire form input[type = 'submit']:hover{
+	background: #2ecc71;
+}
+.commentaire textarea{
+	border:2px solid #2ecc71;
+	height: 100%;
+	width: 100%;
+}
+
+/*--livre-or*/
+.or h2{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+hr{
+	border: 3px solid;
+}
+.or{
+	text-align: center;
+}
+
+.or .corps{
+	background: url('livre.jpg')  no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.or .corps ul{
+	display: block;
+	width: 80%;
+	margin: 0 auto 0;
+}
+.or .corps ul li{
+	display:block;
+	float:left;
+	padding:0;
+	width : 33%;
+	height : auto;
+	border: 1px solid #000;
+	text-align:center;
+	margin-top: 10px;
+	border-radius: 2px;
+	padding: 2px 2px ;
+	margin-left: 33%;
+}
