@@ -16,8 +16,8 @@ if (isset($_POST['forminscription']))
 	{
 		$id_utilisateur = $_SESSION['id'];
 		$text = htmlspecialchars($_POST['text']);
-		var_dump($_SESSION);
-		var_dump($_POST['text']);
+		//var_dump($_SESSION);
+		//var_dump($_POST['text']);
 		// User connecté en insertion dans la base de données du commentaires!
 		if ($text <= 1000) 
 		{
