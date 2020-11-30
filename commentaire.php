@@ -7,7 +7,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=livreor;charset=utf8', 'root', '');
 
 if (!$_SESSION['conect']) 
 {
-	//header('location:index.php')
+	header('location:index.php')
 }
 
 if (isset($_POST['forminscription'])) 
